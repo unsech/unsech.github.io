@@ -16,10 +16,24 @@
  <circle cx="50" cy="100" r="24" fill="#D0D0D0"/>
 </svg>  -->
 
-<svg width="200" height="200" viewBox="20 20 160 160" xmlns="http://www.w3.org/2000/svg">
+<!-- <svg width="200" height="200" viewBox="20 20 160 160" xmlns="http://www.w3.org/2000/svg">
   <circle cx="100" cy="100" r="18" fill="#FFFFFF"/>
   <circle cx="100" cy="50" r="24" fill="#D0D0D0"/>
   <circle cx="150" cy="100" r="24" fill="#D0D0D0"/>
   <circle cx="100" cy="150" r="24" fill="#D0D0D0"/>
   <circle cx="50" cy="100" r="24" fill="#D0D0D0"/>
+</svg> -->
+
+<svg width="200" height="200" viewBox="20 20 160 160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .center-dot { fill: #000000; }
+    @media (prefers-color-scheme: dark) {
+      .center-dot { fill: #FFFFFF; }
+    }
+  </style>
+  <circle class="center-dot" cx="100" cy="100" r="18"/>
+  <circle cx="100" cy="50" r="24" fill="#7A7A7A"/>
+  <circle cx="150" cy="100" r="24" fill="#7A7A7A"/>
+  <circle cx="100" cy="150" r="24" fill="#7A7A7A"/>
+  <circle cx="50" cy="100" r="24" fill="#7A7A7A"/>
 </svg>
