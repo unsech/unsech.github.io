@@ -244,6 +244,10 @@
       flex-direction: column;
       gap: 0.4rem;
     }
+    .community-links a {
+  display: inline-block;
+  width: fit-content;
+}
 
     .footer-bottom {
       padding-top: 1.5rem;
@@ -447,33 +451,30 @@
   </section>
 
   <footer>
-    <div class="footer-content">
-      <div class="footer-grid">
-        <div class="footer-section">
-          <h3>Contact us</h3>
-          <p>
-            Questions about our work or want to support us or get involved?
-          </p>
-          <p>
-            Email us at
-            <a href="mailto:hello@unsech.com">hello@unsech.com →</a>
-          </p>
-        </div>
-        
-        <div class="footer-section">
-          <h3>Community</h3>
-          <div class="community-links">
-            <span>LinkedIn</span>
-            <span>X/Twitter</span>
-          </div>
+  <div class="footer-content">
+    <div class="footer-grid">
+
+      <div class="footer-section">
+        <h3>Contact us</h3>
+        <p>Questions about our work or want to support us or get involved?</p>
+        <p>Email us at <a href="mailto:hello@unsech.com">hello@unsech.com →</a></p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Community</h3>
+        <div class="community-links">
+          <a href="https://linkedin.com/company/unsech" target="_blank" rel="noopener noreferrer">LinkedIn →</a>
+          <a href="https://x.com/unsechlab" target="_blank" rel="noopener noreferrer">X / Twitter →</a>
         </div>
       </div>
-      
-      <div class="footer-bottom">
-        <p>© 2026 unsech</p>
-      </div>
+
     </div>
-  </footer>
+
+    <div class="footer-bottom">
+      <p>© 2026 unsech</p>
+    </div>
+  </div>
+</footer>
 
   <script>
     // Hamburger menu toggle
